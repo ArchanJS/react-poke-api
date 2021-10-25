@@ -11,7 +11,6 @@ const Details = () => {
     const getData = async () => {
         try {
             const { data } = await axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`);
-            console.log(data);
             setPokemon(data);
         } catch (error) {
             console.log(error);
