@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+.pa-head{
+  animation: glow 2s ease-in-out infinite;
+  font-family: 'Monoton', cursive !important;
+}
+
+@keyframes glow{
+  0%{
+    color: red;
+  }
+  20%{
+    color: cyan;
+  }
+  40%{
+    color: pink;
+  }
+  60%{
+    color: purple;
+  }
+  80%{
+    color: black;
+  }
+  100%{
+    color: brown;
+  }
+}
